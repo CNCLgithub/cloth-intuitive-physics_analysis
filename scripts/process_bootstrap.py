@@ -8,6 +8,10 @@ Generate :
 data/parsed_questions_bootstrap/acc_each_scene_stiff.csv
 data/parsed_questions_bootstrap/cor_each_scene_stiff.csv
 data/parsed_questions_bootstrap/cor_stiff.csv
+
+
+Before running this script, ensure you've executed bash data/parsed_questions_bootstrap/download_bootstrap_data.sh.
+Keep in mind that it could be time-consuming since the data is approximately 110GB in size.
 '''
 
 cond = 'stiff'  # stiff | mass
