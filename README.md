@@ -4,7 +4,7 @@
 > since 2024-04-12
 
 
-# Woven: Data Analsysis
+# Woven: Data Analysis
 This folder contains the scripts used for conducting the data analysis and generating figures in our paper [xxx](https://)
 
 ## Download data
