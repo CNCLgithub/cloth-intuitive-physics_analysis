@@ -10,8 +10,12 @@ This folder contains the scripts used for conducting the data analysis and gener
 ## Download data
 
 ```
+## Download data from google drive
 pip install gdown
 bash download_data.sh
+
+## If data is not available from Google Drive, you can manually download it from:
+## https://osf.io/29jnd/?view_only=995930bfbb1e404989f4e11c0aa3d1ec
 ```
 
 ## Run script
