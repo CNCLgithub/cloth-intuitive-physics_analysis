@@ -12,14 +12,27 @@ Collection of analysis scripts used in "Computational models reveal that intuiti
   year={2025}
 }
 ```
+---
 
+## ⚙️ Dependencies
+
+The analysis require a python environment with the following dependencies:
+```
+numpy
+pandas
+sklearn
+statsmodels
+seaborn
+scipy
+```
+
+---
 ## 📄 Replication
 
 To replicate the results and figures from the paper, follow the setup instructions below and run the corresponding scripts.
 
----
 
-## 📥 Download Data
+### 📥 Download data
 
 Download all required data files by running the following command:
 
@@ -28,7 +41,7 @@ bash download_data.sh
 ```
 
 
-## 🚀 Run script
+### 🚀 Run script
 [figures_stiffness.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/figures_stiffness.ipynb): Generate figures for Fig. 3A (Exp. 1); Fig. 3C (Exp. 1); Fig. 4A (i) and (ii); Supplementary Fig. 6A; Supplementary Fig.8 A, B, and D; Supplementary Fig.9 A, B, and D; Supplementary Fig.10 A, B, and D; Supplementary Fig. 11.
 
 [figures_mass.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/figures_mass.ipynb): Generate figures for Fig. 3A (Exp. 2); Fig. 3C (Exp. 2); Fig. 4B (i) and (ii); Supplementary Fig. 6B; Supplementary Fig.8 E, F, and H; Supplementary Fig.9 E, F, and H; Supplementary Fig.10 E, F, and H; Supplementary Fig. 12.
