@@ -1,34 +1,44 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Matlab](https://img.shields.io/badge/language-Python-red.svg)]()
-
-> since 2024-04-12
 
 
-# Woven: Data Analysis
-This folder contains the scripts used for conducting the data analysis and generating figures in our paper [xxx](https://)
+# Woven Analysis Repo
+Collection of analysis scripts used in "Computational models reveal that intuitive physics underlies visual processing of soft objects"
 
-## Download data
-
+```bibtex
+@article{Bi_Shah_Wong_Scholl_Yildirim,
+  title={Computational models reveal that intuitive physics underlies visual processing of soft objects},
+  author={Bi, Wenyan and Shah, Aalap D. and Wong, Kimberly W. and Scholl, Brian J. and Yildirim, Ilker},
+  journal={Nature Communications},
+  year={2025}
+}
 ```
-## Download data from google drive
-pip install gdown
+
+## 📄 Replication
+
+To replicate the results and figures from the paper, follow the setup instructions below and run the corresponding scripts.
+
+---
+
+## 📥 Download Data
+
+Download all required data files by running the following command:
+
+```bash
 bash download_data.sh
-
-## If data is not available from Google Drive, you can manually download it from:
-## https://osf.io/29jnd
 ```
 
-## Run script
-[figures_stiffness.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/figures_stiffness.ipynb): Generate figures for Fig. 3A (Exp. 1); Fig. 3C (Exp. 1); Fig. 4A (i) and (ii); Fig. S6A; Fig.S8 A, B, and D; Fig. S9 A, B, and D; Fig. S10 A, B, and D; Fig. S11.
 
-[figures_mass.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/figures_mass.ipynb): Generate figures for Fig. 3A (Exp. 2); Fig. 3C (Exp. 2); Fig. 4B (i) and (ii); Fig. S6B; Fig.S8 E, F, and H; Fig. S9 E, F, and H; Fig. S10 E, F, and H; Fig. S12.
+## 🚀 Run script
+[figures_stiffness.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/figures_stiffness.ipynb): Generate figures for Fig. 3A (Exp. 1); Fig. 3C (Exp. 1); Fig. 4A (i) and (ii); Supplementary Fig. 6A; Supplementary Fig.8 A, B, and D; Supplementary Fig.9 A, B, and D; Supplementary Fig.10 A, B, and D; Supplementary Fig. 11.
+
+[figures_mass.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/figures_mass.ipynb): Generate figures for Fig. 3A (Exp. 2); Fig. 3C (Exp. 2); Fig. 4B (i) and (ii); Supplementary Fig. 6B; Supplementary Fig.8 E, F, and H; Supplementary Fig.9 E, F, and H; Supplementary Fig.10 E, F, and H; Supplementary Fig. 12.
 
 [plot_nmds.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/plot_nmds.ipynb): Generate figures for Fig. 4A (iii) and 4B (iii).
 
-[scripts/nmds/plot_embedding.m](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/scripts/nmds/plot_embedding.m): Generate figures for Fig. 3B (i)-(iii) and (v)-(vii); Fig. S7; Fig. S8 C and G; Fig. S9 C and G; Fig. S10 C and G. Output figures are saved at [here](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/tree/main/scripts/nmds/output/fig).
+[scripts/nmds/plot_embedding.m](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/scripts/nmds/plot_embedding.m): Generate figures for Fig. 3B (i)-(iii) and (v)-(vii); Supplementary Fig.7; Supplementary Fig.8 C and G; Supplementary Fig.9 C and G; Supplementary Fig.10 C and G. Output figures are saved at [here](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/tree/main/scripts/nmds/output/fig).
 
 
-[dnn_training_res.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/dnn_training_res.ipynb):  Generate figures for Fig. S4.
+[dnn_training_res.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/dnn_training_res.ipynb):  Generate figures for Supplementary Fig. 4.
 
 [fig5_woven_predicted_perceptual_constancy.ipynb](https://github.com/CNCLgithub/cloth-intuitive-physics_analysis/blob/main/fig5_woven_predicted_perceptual_constancy.ipynb): Generate figures for Fig. 5.
 
